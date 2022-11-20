@@ -1,7 +1,7 @@
 import { NestFactory } from '@nestjs/core';
 import { createProxyMiddleware } from 'http-proxy-middleware';
-import { microservicesEndpoints } from 'microservices/microservices.json';
 import { AppModule } from './app.module';
+import { microservicesEndpoints } from './microservices/microservices.json';
 
 
 async function bootstrap() {
