@@ -16,7 +16,7 @@ export const microservicesEndpoints = [
     {
         endpointName: "/auth", 
         options: {
-            target: "https://silvifrid-auth-db4v.vercel.app",    
+            target: "https://silvifrid-auth.vercel.app",    
             changeOrigin: true
         }
     },
