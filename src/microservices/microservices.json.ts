@@ -2,14 +2,14 @@ export const microservicesEndpoints = [
     {
         endpointName: "/getproducts", 
         options: {
-            target: "https://silvifrid-catalog.vercel.app",    
+            target: "https://silvifrid-catalog-eq.vercel.app",    
             changeOrigin: true
         }
     },
     {
         endpointName: "/createproduct", 
         options: {
-            target: "https://silvifrid-catalog.vercel.app",    
+            target: "https://silvifrid-catalog-eq.vercel.app",    
             changeOrigin: true
         }
     },
