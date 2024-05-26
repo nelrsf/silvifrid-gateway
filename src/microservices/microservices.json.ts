@@ -33,5 +33,12 @@ export const microservicesEndpoints = [
             target: "https://silvifrid-courier.vercel.app",    
             changeOrigin: true
         }
+    },
+    {
+        endpointName: "/createtransaction", 
+        options: {
+            target: "https://silvifrid-transactions.vercel.app",    
+            changeOrigin: true
+        }
     }
 ]
